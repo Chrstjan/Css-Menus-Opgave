@@ -19,6 +19,7 @@ h1, h2 {
     color: #fff;
 }
 
+/*#region rollover menu  */
 .roll-over-header {
     background: #1C1C1C;
     display: flex;
@@ -44,7 +45,9 @@ h1, h2 {
 .roll-over-nav ul li a:hover {
     color: pink;
 }
+/*#endregion rollover menu  */
 
+/*#region dropdown menu  */
 .drop-down-header {
     background: #1C1C1C;
     display: flex;
@@ -69,7 +72,9 @@ h1, h2 {
 .sup-nav-item:hover .sub-nav {
     display: block;
 }
+/*#endregion dropdown menu  */
 
+/*#region burger menu  */
 .main-header {
     background: #1c1c1c;
     display: flex;
@@ -122,3 +127,4 @@ h1, h2 {
     height: 8px;
     background: #fff;
 }
+/*#endregion burger menu  */
