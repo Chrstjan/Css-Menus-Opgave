@@ -4,15 +4,70 @@ body {
     font-family: sans-serif;
 }
 
+h1, h2 {
+    color: #fff;
+}
+
 .main-container {
     margin: 0 auto;
     padding: 0;
     max-width: 1400px;
     border: 1px solid #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
 }
 
-.main-header h1 {
-    color: #fff;
+.roll-over-header {
+    background: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roll-over-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.roll-over-nav ul li {
+    list-style-type: none;
+}
+
+.roll-over-nav ul li a {
+    text-decoration: none;
+}
+
+.roll-over-nav ul li a:hover {
+    color: pink;
+}
+
+.drop-down-header {
+    background: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-dropdown .sup-nav-item {
+    list-style-type: none;
+}
+
+.sub-nav {
+    display: none;
+}
+
+.sup-nav-item:hover .sub-nav {
+    display: block;
 }
 
 .main-header {
